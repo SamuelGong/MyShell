@@ -24,6 +24,7 @@ The architecture of the project can be simply revealed from the organization of 
   + ...all the other command's manual  
 - source  
   + makefile: convenient for make  
+  + readme: a manual containing not only manuals for all commands but aslo the basic knowledge about Linux shell
   + myshell.h: prototypes of all the funtions and global variables, as well as the 
 declarations of all the important data structures  
   + myshell.c: main source file with main functions  
