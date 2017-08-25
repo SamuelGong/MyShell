@@ -1,0 +1,14 @@
+pwd:
+
+    pwd
+
+    Write the path of the current working directory to the standard output with a newline appended.
+
+    If the path includes the home directory, the whole path of the home directory will be replaced by a symbol '~'.
+
+    For example, if you are now in the directory "/home/ji/myshell/", and your home directory is "/home/ji/", then you will otain "~/myshell" if you execute the command.
+
+    If output is redirected, then the procedure will write the result into the designated destination. 
+
+    For example, " pwd | wc -c ", " pwd > a.txt " , " pwd >> b.txt " are all supported.
+

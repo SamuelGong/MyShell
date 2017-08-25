@@ -1,0 +1,22 @@
+while:
+
+    while test [expression]
+    do
+        [A commands]
+    done
+    [B commands]
+
+    Executing A commands as long as the test result of expression is true (0), otherwise B commands will be executed sequentially.
+
+    For example, if you have such statements in your batch file:
+
+    ...
+    i=0
+    while test $i -lt 3
+    do
+        i=$i+1
+    done
+    echo $i
+
+    Then you will obtain "3" on the screen after executing that segment of codes.
+

@@ -1,0 +1,20 @@
+shift:
+
+    shift [amount]
+
+    Shift the locational variables left with the amound designated.
+
+    For example, before executing the command " shift 3 ", all the locational variables were:
+
+        $0 = ./myshell  $1 = I      $2 = Love      $3 = Linux      $4 = !
+
+    Then after executing that command, the locational variables will be:
+
+        $0 = Linux      $1 = !
+
+    If no amount is designated, then the default is 1.
+
+    For example, the former locational variables distribution will be changed into the following state after executing the command " shift ":
+
+        $0 = I          $1 = Love   $2 = Linux     $4 = !
+

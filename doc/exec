@@ -1,0 +1,8 @@
+exec:
+
+    exec [command]
+
+    Replace the shell with the given command. Hence, the myshell will exit.
+
+    The command will be executed by function execvp, that is to say, will be exectued by the routines beyond myshell. So all the commands can be executed as long as your Linux system supports.
+

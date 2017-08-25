@@ -1,0 +1,16 @@
+help:
+
+    help [command]
+
+    Write the helping manual to the standard output.
+
+    For example, you can obtain the manual of " echo " by " help echo ".
+
+    Only the commands myshell implemented have a manual.
+
+    If there is no command designated, then a general manual will be shown.
+
+    If output is redirected, then the procedure will write the result into the designated destination. 
+
+    For example, " help time | more ", " help environ > a.txt ", " help bg >> b.txt " are all supported.
+

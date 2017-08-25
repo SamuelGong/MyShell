@@ -1,0 +1,22 @@
+jobs:
+
+    jobs
+
+    Write all the background jobs to the standard output with a newline appended. The format is like :
+
+    [num]( /-/+)    status    <all the arguments of the commands>
+
+    '+' marks the default job. '-' marks the next default one. That is to say, if you use bg or fg command while no argument is appended, then the job with '+' will be the object of the command.
+
+    For example, you can obtain a job list using " jobs " like this:
+
+         [1]     running		sleep 100 &
+         [2]-    running		sleep 300 &
+         [3]+    stopped		sleep 200
+
+    If there are not any background commands, then nothing will be displayed.
+
+    If output is redirected, then the procedure will write the result into the designated destination. 
+
+    For example, " jobs | wc -w ", " jobs > a.txt ", " jobs >> b.txt " are all supported.
+

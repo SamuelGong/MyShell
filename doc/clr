@@ -1,0 +1,7 @@
+clr:
+
+    clr
+
+    Clear the terminal screen. 
+
+    Unlike "clear" in the Linux terminal, "clr" will result in a totally clean terminal, which means all previous results in the terminal will be totally swept away and cannot be fetched by rolling the screen any more.

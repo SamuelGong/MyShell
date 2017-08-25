@@ -1,0 +1,22 @@
+
+            Welcome to myshell powered by Zhifeng Jiang!
+
+    In this shell, all following commands will be interpreted as internal ones:
+	
+    1.  quit     2.  echo     3.  pwd      4.  time
+    5.  umask    6.  clr      7.  dir      8.  environ
+    9.  help     10. cd       11. jobs     12. bg
+    13. fg       14. exec     15. exit     16. set
+    17. unset    18. shift    19. test     20. = (simple assignment)
+    21. if       22. while    23. continue 24. + (simple addition)
+	
+    In addition, ctrl + z is supported to stop a fore ground command.
+
+    Other commands will be regarded as external ones, being executed by using execvp funtion.
+
+    All the detail can be obtained by command "help <internal command>".
+    For example, "help quit" results in the manual "quit.txt" to be displayed.
+
+            Hope you enjoy the travel with myshell !
+            Author : Zhifeng Jiang ; Date : 2017-07-31
+

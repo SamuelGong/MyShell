@@ -1,0 +1,16 @@
+echo:
+    
+    echo  [arguments ... ]
+
+    Write the arguments to the standard output with a newline appended.
+
+    For example, "echo I love Linux", then you can see "I love Linux" on the screen with a newline.
+
+    If output is redirected, then the procedure will write the result into the designated destination. 
+
+    For example, " echo I love Linux | wc -w ", " echo I Love Linux > a.txt ", " echo I Love Linux >> b.txt " are all supported.
+
+    Locational variables, local shell variables and environment variables are also supported.
+
+    For example, you can use $0, $1, ..., $9, $$, $@, $#, $?, $!, $*, $a (assume that it is one of the local shell variables), $HOME ...
+

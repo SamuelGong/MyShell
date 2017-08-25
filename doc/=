@@ -1,0 +1,10 @@
+=:
+
+    <variable>=<value>
+
+    Assign the value to the existing local shell variable, or create one if it doesn't exist before.
+
+    Note that there must not be any space at the ends of the character '='.
+
+    For example , "a=1" can assign 1 to a.
+

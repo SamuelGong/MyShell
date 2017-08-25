@@ -1,0 +1,54 @@
+test:
+
+    test [expression]
+
+    Evalute the conditional expression. Exit with code 0 if that expression is true, and 1 otherwise.
+
+    1. For string expression:
+    
+        -z STRING                 True if string is empty.
+    
+        -n STRING                 True if string is not empty.
+    
+        STRING1 = STRING2         True if the strings are equal.
+
+        STRING1 != STRING2        True if the strings are not equal.
+
+    2. For integer expression:
+
+        INT1 -eq INT2           True if the integers are equal.
+
+        INT1 -ne INT2           True if the integers are not equal.
+
+       	INT1 -gt INT2           True if the former is greater than the latter.
+
+        INT1 -ge INT2           True if the former is greater than or equal to the latter.
+
+        INT1 -lt INT2           True if the former is less than the latter.
+
+        INT1 -le INT2           True if the former is greater than or equal to the latter.
+
+    In all the above expression, locational variables, local shell variables and environment variables are also supported.
+
+    For example, you can use $0, $1, ..., $9, $$, $@, $#, $?, $!, $*, $a (assume that it is one of the local shell variables), $HOME ...
+
+    3. For file test:
+
+      -d FILE                   True if file is a directory.
+
+      -e FILE                   True if file exists.
+
+      -f FILE                   True if file exists and is a regular file.
+
+      -g FILE                   True if file is set-group-id.
+
+      -r FILE                   True if file is readable by you.
+
+      -s FILE                   True if file exists and is not empty.
+
+      -u FILE                   True if the file is set-user-id.
+
+      -w FILE                   True if the file is writable by you.
+
+      -x FILE                   True if the file is executable by you.
+

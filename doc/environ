@@ -1,0 +1,19 @@
+environ:
+
+    environ
+
+    Write all the environment variables to the standard output with a newline appended.
+
+    The format is like :
+
+        name1=value1
+        name2=value2
+        ...
+
+    For example, you can obtain a list by typing " environ " like this:
+
+        ...
+        PWD=/home/samuelgong/myC/doc
+        HOME=/home/samuelgong
+        ...
+

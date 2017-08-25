@@ -1,0 +1,8 @@
+exit:
+
+    exit [code]
+
+    Cause normal process termination with a code ranged from 0 to 126. If there is not exit code designated, then 0 will the default code.
+
+    For example, you can use " exit 100 " to exit myshell with code 100. You can just use " exit " to exit myshell with code 0.
+

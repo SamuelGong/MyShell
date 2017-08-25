@@ -1,0 +1,14 @@
+time:
+
+    time
+
+    Write the current time to the standard output.
+
+    The format is like "yyyy-mm-dd weekday hh:mm:ss".
+
+    For example, you can obtain a time like "2017-07-30 Sunday 21:59:56".
+
+    If output is redirected, then the procedure will write the result into the designated destination. 
+
+    For example, " time | wc -w ", " time > a.txt ", " time >> b.txt " are all supported.
+

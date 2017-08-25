@@ -1,0 +1,16 @@
+umask:
+
+    umask [mask]
+
+    Displaying the file mode creation mask (umask) , or setting the umask to [mask] & 0777.
+
+    For example, " umask " can result in a umask like "0022" on your screen.
+
+    If output is redirected, then the procedure will write the result into the designated destination. 
+
+    For example, " umask | wc -w ", " umask > a.txt ", " umask >> b.txt " are all supported.
+
+    If an octal mask is appended, then the umask will be changed into that umask bitwised-and by 0777, where no output at all.
+
+    For example, " umask 0666 " will change the umask in myshell into 0666.
+

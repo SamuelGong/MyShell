@@ -1,0 +1,15 @@
++:
+
+    <variable>=<variable/value>+<variable/value>
+
+    Do the simple addition in the assignment statement.
+
+    For example, you will get $i = 1 after executing the following commands:
+
+    i=0
+    i=$i+1
+
+    Locational variables, local shell variables and environment variables are also supported.
+
+    For example, you can use $0, $1, ..., $9, $$, $@, $#, $?, $!, $*, $a (assume that it is one of the local shell variables), $HOME ...
+

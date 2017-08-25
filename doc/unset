@@ -1,0 +1,10 @@
+unset:
+
+    unset [variable]
+
+    Remove the local shell variable with name designated.
+
+    For example, if you have a variable name a whose value is 1, the command " unset a " will remove that variable totally.
+
+    If no variable is designated, then it will do nothing.
+

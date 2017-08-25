@@ -1,0 +1,21 @@
+dir:
+
+    dir [directory]
+
+    Write the list of all the directories and files in the designated directory to the standard output with a newline appended.
+
+    If the path includes the home directory, the whole path of the home directory will can be replaced by a symbol '~'.
+
+    For example, you may get a list by " dir ~/myC/doc " like this:
+
+        general.txt        dir.txt       time.txt
+                  .            clr        pwd.txt
+          umask.txt       quit.txt       echo.txt
+         readme.txt             ..        clr.txt
+
+    If there is not a path designated, i.e. just " dir ", then the content of the current working directory will be obtained.
+
+    If output is redirected, then the procedure will write the result into the designated destination. 
+
+    For example, " dir | wc -w ", " dir > a.txt ", " pwd >> b.txt " are all supported.
+

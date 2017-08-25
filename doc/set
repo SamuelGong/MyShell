@@ -1,0 +1,25 @@
+set:
+
+    set [arguments]
+
+    If no arguments are designated, this command will result in a display of the list of all the local shell variables.
+
+    The format is like :
+
+    ...
+    a=A
+    b=C
+    ...
+
+    If output is redirected, then the procedure will write the result into the designated destination. 
+
+    For example, " set | wc -l ", " set > a.txt ", " set >> b.txt " are all supported.
+
+    If there are arguments, then they will be assigned to the positional variables from $1 to $9.
+
+    For example, you can set $1 and $2 to be "Love" and "Linux" respectively by the command " set Love Linux ".
+
+    Locational variables, local shell variables and environment variables are also supported.
+
+    For example, you can use " set $HOME " to set the $1 to be the value of the environment variable named HOME.
+

@@ -1,0 +1,24 @@
+if:
+
+    if test [expression]
+    then
+        [A commands]
+    fi
+    [B commands]
+
+    Execute the command according to condition.
+
+    If the exit status of expression is true (0), then [A commands] will be executed before [B commands] being executed, otherwise [A commands] will be skipped.
+
+    For example, if you have such statements in your batch file:
+
+    ...
+    $i=0
+    if test $i -eq 0
+    then
+        $i=100
+    fi
+    $i=i+1
+
+    After executing this segments of codes, you will have $i = 101.
+

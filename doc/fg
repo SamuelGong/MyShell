@@ -1,0 +1,18 @@
+fg:
+
+    fg [num]
+
+    Run the selected job in the foreground. The job should be background one before execute the command.
+
+    For example, given the job list below ( obtained by " jobs "), you can run the job " sleep 300 " in the foreground by " fg 2".
+
+         [1]     stopped		sleep 100
+         [2]-    running		sleep 300 &
+         [3]+    stopped		sleep 200
+
+    If no job is designated, then the one with '+' will be the object.
+
+    For example, you can run the job " sleep 200 " in the foreground by the command " fg ".
+
+    If there are no background jobs at all, then it will do nothing.
+

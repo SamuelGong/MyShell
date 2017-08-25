@@ -1,0 +1,23 @@
+continue:
+
+    continue
+
+    Continue the while loop, which begins with the test commands.
+
+    For example, if you have such statements in your batch file:
+
+    ...
+    i=0
+    set I do not love Linux
+    while test i -lt 5
+    do
+        if test i -eq 2
+        then
+            continue
+        fi
+        echo $1
+        shift
+    done
+
+    Then you will obtain "I" "do" "love" "Linux" on the screen, where each word is occupying a line, but "not" will not appear since the continue command works.
+
