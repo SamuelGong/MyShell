@@ -84,7 +84,7 @@ echo test done !
 exit 0  
 ```
   
-# 5. LICENCE
+# 5. LICENSE
 The content of all the codes are supposed to use a licence [AGPLv3](./LICENSE)  
 
 # 6. HOW TO CONTRIBUTE
